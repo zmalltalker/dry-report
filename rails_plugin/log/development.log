@@ -1,0 +1,15 @@
+# Logfile created on Mon Dec 24 18:27:09 +0100 2007 by /
+Spec::Rails::Example::HelperBehaviourController: missing default helper path spec/rails/example/helper_behaviour_helper
+Spec::Rails::Example::ViewExampleGroupController: missing default helper path spec/rails/example/view_example_group_helper
+  [4;36;1mSQL (0.000667)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.017434)[0m   [0mCREATE TABLE schema_info (version integer)[0m
+  [4;36;1mSQL (0.004581)[0m   [0;1mINSERT INTO schema_info (version) VALUES(0)[0m
+  [4;35;1mSQL (0.001001)[0m   [0mSELECT * FROM schema_info[0m
+  [4;36;1mSQL (0.000290)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000295)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.004753)[0m   [0;1mCREATE TABLE schema_info (version integer)[0m
+  [4;35;1mSQL (0.003033)[0m   [0mINSERT INTO schema_info (version) VALUES(0)[0m
+  [4;36;1mSQL (0.003204)[0m   [0;1mUPDATE schema_info SET version = 0[0m

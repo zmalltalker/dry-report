@@ -1,0 +1,21 @@
+= Simian
+
+Simian is a plugin that adds rake three rake tasks that makes it trivial
+to perform duplicate code checking against your project's source code.
+
+To check the production files in you project, run:
+
+  rake simian:main
+
+To check the test files in your project, run:
+
+  rake simian:test
+
+To check both production and test, run:
+
+ rake simian
+
+=== License
+
+This plugin is copyright 2008 by RedHill Consulting, Pty. Ltd. and is not free
+unless used solely for non-commercial or evaluation purposes.
